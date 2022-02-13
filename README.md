@@ -6,7 +6,7 @@
 
 A Joi extension to automatically convert ISO date strings to Luxon DateTime objects
 
-![Hello Club](https://helloclub.com/images/logo/logo-text.svg)
+[![Hello Club](https://helloclub.com/images/logo/logo-text.svg)](https://helloclub.com)
 
 ### Features
 - Validates incoming date values as ISO date strings
