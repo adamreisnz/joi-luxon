@@ -11,8 +11,8 @@ A Joi extension to automatically convert ISO date strings to Luxon DateTime obje
 ### Features
 - Validates incoming date values as ISO date strings
 - Automatically converts date strings to Luxon `DateTime` objects
-- Able to specify timezone and use modifiers like `startOf` or `endOf`
-- Able to validate using functions like `isAfter` or `isBefore`
+- Able to set timezone and use modifiers like `startOf` or `endOf`
+- Able to validate against other dates or Joi references using functions like `gt`, `lt`, `gte` or `lte`
 
 ### Installation
 
