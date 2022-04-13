@@ -51,18 +51,18 @@ module.exports = Joi => ({
 
     //Apply a timezone
     if (timezone) {
-      value.setZone(timezone)
+      value = value.setZone(timezone)
     }
     else if (prefs.context.timezone) {
-      value.setZone(prefs.context.timezone)
+      value = value.setZone(prefs.context.timezone)
     }
 
     //Start/end of period
     if (startOf) {
-      value.startOf(startOf)
+      value = value.startOf(startOf)
     }
     if (endOf) {
-      value.endOf(endOf)
+      value = value.endOf(endOf)
     }
 
     //Min/max dates
