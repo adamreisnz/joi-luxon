@@ -1,7 +1,7 @@
 {
   "name": "@helloclub/joi-luxon",
   "description": "A Joi extension to automatically convert ISO date strings to Luxon DateTime objects",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/helloclub/joi-luxon#readme",
   "author": {
     "name": "Hello Club",
