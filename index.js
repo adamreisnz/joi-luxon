@@ -53,7 +53,7 @@ module.exports = Joi => ({
     if (timezone) {
       value = value.setZone(timezone)
     }
-    else if (prefs.context.timezone) {
+    else if (prefs.context && prefs.context.timezone) {
       value = value.setZone(prefs.context.timezone)
     }
 
