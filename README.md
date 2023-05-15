@@ -26,10 +26,10 @@ yarn add @helloclub/joi-luxon
 
 ### Usage
 ```js
-const Joi = require('@hapi/joi')
-const JoiLuxon = require('@helloclub/joi-luxon')
+import Joi from 'joi'
+import JoiLuxon from '@helloclub/joi-luxon'
 
-module.exports = Joi.extend(JoiLuxon)
+export default Joi.extend(JoiLuxon)
 ```
 
 ### Examples
@@ -108,4 +108,4 @@ If you belong to any kind of club or membership based organisation, or if you kn
 
 (MIT License)
 
-Copyright 2022, Hello Club
+Copyright 2022-2023, Hello Club
