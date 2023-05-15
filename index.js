@@ -1,14 +1,9 @@
-'use strict'
-
-/**
- * Dependencies
- */
-const {DateTime} = require('luxon')
+import DateTime from '../plugins/joi/luxon.js'
 
 /**
  * Extend Joi with Luxon date handling
  */
-module.exports = Joi => ({
+export default Joi => ({
   type: 'luxon',
   base: Joi.any(),
   messages: {

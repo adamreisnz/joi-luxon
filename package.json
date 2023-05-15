@@ -28,12 +28,12 @@
     "date"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "main": "index.js",
   "peerDependencies": {
-    "joi": ">=17.5.0",
-    "luxon": ">=2.1.1"
+    "joi": ">=17.9.1",
+    "luxon": ">=3.3.0"
   },
   "scripts": {
     "postversion": "git push && git push --tags && npm publish"
