@@ -1,4 +1,4 @@
-import DateTime from '../plugins/joi/luxon.js'
+import DateTime from 'luxon'
 
 /**
  * Extend Joi with Luxon date handling
