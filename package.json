@@ -1,13 +1,12 @@
 {
-  "name": "@helloclub/joi-luxon",
+  "name": "@reis/joi-luxon",
   "description": "A Joi extension to automatically convert ISO date strings to Luxon DateTime objects",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "type": "module",
-  "homepage": "https://github.com/helloclub/joi-luxon#readme",
+  "homepage": "https://github.com/adamreisnz/joi-luxon#readme",
   "author": {
-    "name": "Hello Club",
-    "email": "info@helloclub.com",
-    "url": "https://helloclub.com"
+    "name": "Adam Reis",
+    "email": "adam@reis.nz"
   },
   "contributors": [],
   "license": "MIT",
@@ -16,10 +15,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/helloclub/joi-luxon.git"
+    "url": "git+https://github.com/adamreisnz/joi-luxon.git"
   },
   "bugs": {
-    "url": "https://github.com/helloclub/joi-luxon/issues"
+    "url": "https://github.com/adamreisnz/joi-luxon/issues"
   },
   "keywords": [
     "joi",
@@ -37,6 +36,6 @@
     "luxon": ">=3.3.0"
   },
   "scripts": {
-    "postversion": "git push && git push --tags && npm publish"
+    "postversion": "git push && npm publish"
   }
 }

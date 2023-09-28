@@ -1,12 +1,10 @@
-# @helloclub/joi-luxon
+# @reis/joi-luxon
 
-[![npm version](https://img.shields.io/npm/v/@helloclub/joi-luxon.svg)](https://www.npmjs.com/package/@helloclub/joi-luxon)
-[![github issues](https://img.shields.io/github/issues/helloclub/joi-luxon.svg)](https://github.com/helloclub/joi-luxon/issues)
+[![npm version](https://img.shields.io/npm/v/@reis/joi-luxon.svg)](https://www.npmjs.com/package/@reis/joi-luxon)
+[![github issues](https://img.shields.io/github/issues/adamreisnz/joi-luxon.svg)](https://github.com/helloclub/joi-luxon/issues)
 
 
 A Joi extension to automatically convert ISO date strings to Luxon DateTime objects
-
-[![Hello Club](https://helloclub.com/images/logo/logo-text.svg)](https://helloclub.com/?source=github)
 
 ### Features
 - Validates incoming date values as ISO date strings
@@ -18,16 +16,16 @@ A Joi extension to automatically convert ISO date strings to Luxon DateTime obje
 
 ```shell
 #npm
-npm install @helloclub/joi-luxon
+npm install @reis/joi-luxon
 
 #yarn
-yarn add @helloclub/joi-luxon
+yarn add @reis/joi-luxon
 ```
 
 ### Usage
 ```js
 import Joi from 'joi'
-import JoiLuxon from '@helloclub/joi-luxon'
+import JoiLuxon from '@reis/joi-luxon'
 
 export default Joi.extend(JoiLuxon)
 ```
@@ -96,16 +94,11 @@ Joi
 
 ## Issues & feature requests
 
-Please report any bugs, issues, suggestions and feature requests in the [joi-luxon issue tracker](https://github.com/helloclub/joi-luxon/issues).
+Please report any bugs, issues, suggestions and feature requests in the [joi-luxon issue tracker](https://github.com/adamreisnz/joi-luxon/issues).
 
-## Sponsor
-
-This package is sponsored by [Hello Club](https://helloclub.com?source=github), an [all-in-one club and membership management solution](https://helloclub.com?source=github) complete with booking system, automated membership renewals, online payments and integrated access and light control. 
-
-If you belong to any kind of club or membership based organisation, or if you know someone who helps run a club, please [check us out](https://helloclub.com?source=github)!
 
 ## License
 
 (MIT License)
 
-Copyright 2022-2023, Hello Club
+Copyright 2022-2023, Adam Reis
