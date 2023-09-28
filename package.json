@@ -1,7 +1,7 @@
 {
   "name": "@reis/joi-luxon",
   "description": "A Joi extension to automatically convert ISO date strings to Luxon DateTime objects",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "type": "module",
   "homepage": "https://github.com/adamreisnz/joi-luxon#readme",
   "author": {

@@ -1,7 +1,7 @@
 # @reis/joi-luxon
 
 [![npm version](https://img.shields.io/npm/v/@reis/joi-luxon.svg)](https://www.npmjs.com/package/@reis/joi-luxon)
-[![github issues](https://img.shields.io/github/issues/adamreisnz/joi-luxon.svg)](https://github.com/helloclub/joi-luxon/issues)
+[![github issues](https://img.shields.io/github/issues/adamreisnz/joi-luxon.svg)](https://github.com/adamreisnz/joi-luxon/issues)
 
 
 A Joi extension to automatically convert ISO date strings to Luxon DateTime objects
